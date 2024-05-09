@@ -1,5 +1,5 @@
 import heroImg from "../assets/heroImg.jpeg";
-import UploadButton from "./UploadButton";
+
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
@@ -13,7 +13,7 @@ const HeroSection = () => {
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
         Make Your Documents easy to read.
       </p>
-      <UploadButton />
+      
       <div className="flex mt-15  justify-center">
         <img  src={heroImg} alt="HeroImage"></img>
       </div>
