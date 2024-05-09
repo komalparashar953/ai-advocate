@@ -11,8 +11,7 @@ import user2 from "../assets/profile-pictures/user2.jpg";
 export const navItems = [
   { label: "Features", href: "#" },
   { label: "Legal Tracking", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Pricing", href: "#" }
 ];
 
 export const testimonials = [
@@ -34,9 +33,9 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Ask AI Lawyer",
+    text: "In-depth legal research",
     description:
-      "Legal research never been easier. Have a conversation with your virtual assistant, gain insights and simple answers to your complex questions in real-time.",
+      "Can conduct in-depth legal research in seconds by scanning vast volumes of legal documents and precedents.",
   },
   {
     icon: <Fingerprint />,
@@ -85,7 +84,7 @@ export const checklistItems = [
 export const pricingOptions = [
   {
     title: "Free",
-    price: "$0",
+    price: "0Rs",
     features: [
       "Private board sharing",
       "5 Gb Storage",
@@ -95,7 +94,7 @@ export const pricingOptions = [
   },
   {
     title: "Pro",
-    price: "$10",
+    price: "100Rs",
     features: [
       "Private board sharing",
       "10 Gb Storage",
@@ -105,7 +104,7 @@ export const pricingOptions = [
   },
   {
     title: "Enterprise",
-    price: "$200",
+    price: "200Rs",
     features: [
       "Private board sharing",
       "Unlimited Storage",

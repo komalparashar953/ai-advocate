@@ -8,3 +8,22 @@
   font-family: "Poppins", sans-serif;
   color-scheme: dark;
 }
+
+/* :App{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  flex-direction:  column;
+}
+
+:formStyle{
+  padding: 20px;
+  border: 1px solid black;
+  width: 25%;
+  text-align: center;
+}
+
+.formControl{
+  border-color: black;
+} */
